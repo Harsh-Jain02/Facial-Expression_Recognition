@@ -58,5 +58,5 @@ def get_data():
     train_data = MyDataset(load_data(train_folder))
     test_data = MyDataset(load_data(test_folder))
     print(len(train_data), len(test_data))
-    return train_data, test_data
+    return train_data, test_data, emotion_map
 
